@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eb0334db-189b-480b-8a6f-dcca986b248b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZIYeOM7FUrtcq19QZ5uy7PbcZz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="RunManager" selected="Application.MainApplication">
+    <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab2Ok.app.MainApplication" />
+      <module name="Lab2Ok" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab2Ok.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab2Ok" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab2Ok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lab2Ok" />
+      <option name="MAIN_CLASS_NAME" value="Lab2Ok.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainApplication" />
+        <item itemvalue="JUnit.AppTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb0334db-189b-480b-8a6f-dcca986b248b" name="Default Changelist" comment="" />
+      <created>1584528169843</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584528169843</updated>
+      <workItem from="1584528174433" duration="524000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1334" height="175" key="GridCell.Tab.0.bottom" timestamp="1584528768069">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state width="1334" height="175" key="GridCell.Tab.0.bottom/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1584528768069" />
+    <state width="1334" height="175" key="GridCell.Tab.0.center" timestamp="1584528768064">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state width="1334" height="175" key="GridCell.Tab.0.center/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1584528768064" />
+    <state width="1334" height="175" key="GridCell.Tab.0.left" timestamp="1584528768063">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state width="1334" height="175" key="GridCell.Tab.0.left/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1584528768063" />
+    <state width="1334" height="175" key="GridCell.Tab.0.right" timestamp="1584528768068">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state width="1334" height="175" key="GridCell.Tab.0.right/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1584528768068" />
+    <state x="247" y="54" key="SettingsEditor" timestamp="1584528280790">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="247" y="54" key="SettingsEditor/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1584528280790" />
+    <state x="539" y="200" key="chooseDestDirectoryDialog" timestamp="1584528523529">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="539" y="200" key="chooseDestDirectoryDialog/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1584528523529" />
+  </component>
+</project>
