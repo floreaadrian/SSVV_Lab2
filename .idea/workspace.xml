@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb0334db-189b-480b-8a6f-dcca986b248b" name="Default Changelist" comment="" />
+    <list default="true" id="eb0334db-189b-480b-8a6f-dcca986b248b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -16,6 +29,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1ZIYeOM7FUrtcq19QZ5uy7PbcZz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,11 +37,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager" selected="Application.MainApplication">
+  <component name="RunManager" selected="JUnit.AppTestBBT">
     <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab2Ok.app.MainApplication" />
       <module name="Lab2Ok" />
@@ -56,8 +77,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTestBBT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab2Ok" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab2Ok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lab2Ok" />
+      <option name="MAIN_CLASS_NAME" value="Lab2Ok.AppTestBBT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTestBBT" />
         <item itemvalue="Application.MainApplication" />
         <item itemvalue="JUnit.AppTest" />
       </list>
@@ -73,7 +110,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584528169843</updated>
-      <workItem from="1584528174433" duration="524000" />
+      <workItem from="1584528174433" duration="2070000" />
     </task>
     <servers />
   </component>
@@ -81,22 +118,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1334" height="175" key="GridCell.Tab.0.bottom" timestamp="1584528768069">
+    <state width="1334" height="218" key="GridCell.Tab.0.bottom" timestamp="1584530641947">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1334" height="175" key="GridCell.Tab.0.bottom/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1584528768069" />
-    <state width="1334" height="175" key="GridCell.Tab.0.center" timestamp="1584528768064">
+    <state width="1334" height="218" key="GridCell.Tab.0.bottom/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1584530641947" />
+    <state width="1334" height="218" key="GridCell.Tab.0.center" timestamp="1584530641944">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1334" height="175" key="GridCell.Tab.0.center/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1584528768064" />
-    <state width="1334" height="175" key="GridCell.Tab.0.left" timestamp="1584528768063">
+    <state width="1334" height="218" key="GridCell.Tab.0.center/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1584530641944" />
+    <state width="1334" height="218" key="GridCell.Tab.0.left" timestamp="1584530641942">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1334" height="175" key="GridCell.Tab.0.left/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1584528768063" />
-    <state width="1334" height="175" key="GridCell.Tab.0.right" timestamp="1584528768068">
+    <state width="1334" height="218" key="GridCell.Tab.0.left/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1584530641942" />
+    <state width="1334" height="218" key="GridCell.Tab.0.right" timestamp="1584530641945">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1334" height="175" key="GridCell.Tab.0.right/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1584528768068" />
+    <state width="1334" height="218" key="GridCell.Tab.0.right/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1584530641945" />
     <state x="247" y="54" key="SettingsEditor" timestamp="1584528280790">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
