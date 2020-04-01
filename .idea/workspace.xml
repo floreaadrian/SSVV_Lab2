@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb0334db-189b-480b-8a6f-dcca986b248b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fisiere/test/Teme.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fisiere/test/Teme.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2Ok/repository/AbstractCrudRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab2Ok/repository/AbstractCrudRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lab2Ok/AppTestBBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lab2Ok/AppTestBBT.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +31,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1ZIYeOM7FUrtcq19QZ5uy7PbcZz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -48,7 +52,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager" selected="JUnit.AppTestBBT">
+  <component name="RunManager" selected="JUnit.AppTestWBT">
     <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab2Ok.app.MainApplication" />
       <module name="Lab2Ok" />
@@ -92,8 +96,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTestWBT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab2Ok" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab2Ok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lab2Ok" />
+      <option name="MAIN_CLASS_NAME" value="Lab2Ok.AppTestWBT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTestWBT" />
         <item itemvalue="JUnit.AppTestBBT" />
         <item itemvalue="Application.MainApplication" />
         <item itemvalue="JUnit.AppTest" />
@@ -110,7 +130,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584528169843</updated>
-      <workItem from="1584528174433" duration="2070000" />
+      <workItem from="1584528174433" duration="3087000" />
+      <workItem from="1585726082907" duration="398000" />
+      <workItem from="1585726997889" duration="2427000" />
     </task>
     <servers />
   </component>
@@ -118,22 +140,38 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1334" height="218" key="GridCell.Tab.0.bottom" timestamp="1584530641947">
+    <state width="1334" height="218" key="GridCell.Tab.0.bottom" timestamp="1585735154244">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1334" height="218" key="GridCell.Tab.0.bottom/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1584530641947" />
-    <state width="1334" height="218" key="GridCell.Tab.0.center" timestamp="1584530641944">
+    <state width="1334" height="218" key="GridCell.Tab.0.bottom/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1585735154244" />
+    <state width="1334" height="218" key="GridCell.Tab.0.center" timestamp="1585735154232">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1334" height="218" key="GridCell.Tab.0.center/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1584530641944" />
-    <state width="1334" height="218" key="GridCell.Tab.0.left" timestamp="1584530641942">
+    <state width="1334" height="218" key="GridCell.Tab.0.center/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1585735154232" />
+    <state width="1334" height="218" key="GridCell.Tab.0.left" timestamp="1585735154230">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1334" height="218" key="GridCell.Tab.0.left/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1584530641942" />
-    <state width="1334" height="218" key="GridCell.Tab.0.right" timestamp="1584530641945">
+    <state width="1334" height="218" key="GridCell.Tab.0.left/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1585735154230" />
+    <state width="1334" height="218" key="GridCell.Tab.0.right" timestamp="1585735154238">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1334" height="218" key="GridCell.Tab.0.right/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1584530641945" />
+    <state width="1334" height="218" key="GridCell.Tab.0.right/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1585735154238" />
+    <state width="1334" height="218" key="GridCell.Tab.1.bottom" timestamp="1585727334212">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state width="1334" height="218" key="GridCell.Tab.1.bottom/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1585727334212" />
+    <state width="1334" height="218" key="GridCell.Tab.1.center" timestamp="1585727334211">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state width="1334" height="218" key="GridCell.Tab.1.center/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1585727334211" />
+    <state width="1334" height="218" key="GridCell.Tab.1.left" timestamp="1585727334210">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state width="1334" height="218" key="GridCell.Tab.1.left/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1585727334210" />
+    <state width="1334" height="218" key="GridCell.Tab.1.right" timestamp="1585727334211">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state width="1334" height="218" key="GridCell.Tab.1.right/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1585727334211" />
     <state x="247" y="54" key="SettingsEditor" timestamp="1584528280790">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
@@ -142,5 +180,9 @@
       <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state x="539" y="200" key="chooseDestDirectoryDialog/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1584528523529" />
+    <state x="431" y="247" key="com.intellij.ide.util.TipDialog" timestamp="1585726996893">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="431" y="247" key="com.intellij.ide.util.TipDialog/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1585726996893" />
   </component>
 </project>

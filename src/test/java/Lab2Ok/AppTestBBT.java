@@ -22,7 +22,7 @@ public class AppTestBBT extends TestCase {
         studentValidator = new StudentValidator();
         studentXMLRepository = new StudentXMLRepo(filenameStudent);
         service = new Service(studentXMLRepository, studentValidator, null, null, null, null);
-        Student student = new Student("12","Gigel",333,"gigel@gigi.com");
+        Student student = new Student("11111","Gigel",333,"gigel@gigi.com");
         assertEquals(service.addStudent(student),student);
 //        assertEquals(1,service.getAllStudenti());
     }
