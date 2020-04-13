@@ -1,13 +1,11 @@
 package Lab2Ok;
 
 import Lab2Ok.domain.Student;
-import Lab2Ok.domain.Tema;
 import Lab2Ok.repository.StudentXMLRepo;
 import Lab2Ok.service.Service;
 import Lab2Ok.validation.StudentValidator;
 import Lab2Ok.validation.ValidationException;
 import junit.framework.TestCase;
-import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;

@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="eb0334db-189b-480b-8a6f-dcca986b248b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fisiere/test/Studenti.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fisiere/test/Studenti.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2Ok/validation/TemaValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab2Ok/validation/TemaValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Lab2Ok/AppTestBBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lab2Ok/AppTestBBT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lab2Ok/AppTestWBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lab2Ok/AppTestWBT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Lab2Ok/validation/TemaValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Lab2Ok/validation/TemaValidator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Lab2Ok/AppTestBBT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Lab2Ok/AppTestBBT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Lab2Ok/AppTestWBT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Lab2Ok/AppTestWBT.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +55,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager" selected="JUnit.AppTestBBT">
+  <component name="RunManager" selected="JUnit.AppTestWBT">
     <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab2Ok.app.MainApplication" />
       <module name="Lab2Ok" />
@@ -113,8 +116,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTestBBT" />
         <item itemvalue="JUnit.AppTestWBT" />
+        <item itemvalue="JUnit.AppTestBBT" />
         <item itemvalue="Application.MainApplication" />
         <item itemvalue="JUnit.AppTest" />
       </list>
@@ -135,7 +138,8 @@
       <workItem from="1585726997889" duration="2983000" />
       <workItem from="1586263619825" duration="75000" />
       <workItem from="1586614946770" duration="1781000" />
-      <workItem from="1586780768958" duration="692000" />
+      <workItem from="1586780768958" duration="1265000" />
+      <workItem from="1586796588851" duration="228000" />
     </task>
     <servers />
   </component>
@@ -147,25 +151,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900/-1920.-499.1920.1080@0.0.1440.900" timestamp="1586615749081" />
-    <state width="1398" height="279" key="GridCell.Tab.0.bottom" timestamp="1586781636793">
+    <state width="1398" height="279" key="GridCell.Tab.0.bottom" timestamp="1586796916350">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="279" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-499.1920.1080@0.0.1440.900" timestamp="1586781636793" />
+    <state width="1398" height="279" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-499.1920.1080@0.0.1440.900" timestamp="1586796916350" />
     <state width="1334" height="218" key="GridCell.Tab.0.bottom/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1585737119789" />
-    <state width="1398" height="279" key="GridCell.Tab.0.center" timestamp="1586781636790">
+    <state width="1398" height="279" key="GridCell.Tab.0.center" timestamp="1586796916346">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="279" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-499.1920.1080@0.0.1440.900" timestamp="1586781636790" />
+    <state width="1398" height="279" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-499.1920.1080@0.0.1440.900" timestamp="1586796916346" />
     <state width="1334" height="218" key="GridCell.Tab.0.center/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1585737119787" />
-    <state width="1398" height="279" key="GridCell.Tab.0.left" timestamp="1586781636788">
+    <state width="1398" height="279" key="GridCell.Tab.0.left" timestamp="1586796916343">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="279" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-499.1920.1080@0.0.1440.900" timestamp="1586781636788" />
+    <state width="1398" height="279" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-499.1920.1080@0.0.1440.900" timestamp="1586796916343" />
     <state width="1334" height="218" key="GridCell.Tab.0.left/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1585737119786" />
-    <state width="1398" height="279" key="GridCell.Tab.0.right" timestamp="1586781636791">
+    <state width="1398" height="279" key="GridCell.Tab.0.right" timestamp="1586796916348">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="279" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-499.1920.1080@0.0.1440.900" timestamp="1586781636791" />
+    <state width="1398" height="279" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-499.1920.1080@0.0.1440.900" timestamp="1586796916348" />
     <state width="1334" height="218" key="GridCell.Tab.0.right/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1585737119788" />
     <state width="1334" height="218" key="GridCell.Tab.1.bottom" timestamp="1585737119792">
       <screen x="0" y="23" width="1440" height="830" />
@@ -191,10 +195,10 @@
       <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state x="539" y="200" key="chooseDestDirectoryDialog/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1584528523529" />
-    <state x="431" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1586780773389">
+    <state x="431" y="247" key="com.intellij.ide.util.TipDialog" timestamp="1586796593782">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="431" y="243" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-1920.-499.1920.1080@0.0.1440.900" timestamp="1586780773389" />
+    <state x="431" y="247" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-1920.-499.1920.1080@0.0.1440.900" timestamp="1586796593782" />
     <state x="431" y="247" key="com.intellij.ide.util.TipDialog/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1586614945745" />
   </component>
 </project>

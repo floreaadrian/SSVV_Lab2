@@ -65,7 +65,66 @@ public class AppTestWBT extends TestCase {
         } catch (ValidationException validationException) {
             assertThat(validationException.getMessage(), is("Deadlineul trebuie sa fie intre 1-14."));
         }
+        Tema tema1 = new Tema("1", "Lab2", -1, 12);
+        try {
+            service.addTema(tema1);
+        } catch (ValidationException validationException) {
+            assertThat(validationException.getMessage(), is("Deadlineul trebuie sa fie intre 1-14."));
+        }
         cleanUp();
     }
 
+    @Test
+    public void test_tc_3_invalid_id() {
+        temaValidator = new TemaValidator();
+        temaXMLRepo = new TemaXMLRepo(filenameTema);
+        service = new Service(null, null, temaXMLRepo, temaValidator, null, null);
+        Tema tema = new Tema("", "Lab2", 10, 12);
+        try {
+            service.addTema(tema);
+        } catch (ValidationException validationException) {
+            assertThat(validationException.getMessage(), is("Numar tema invalid!"));
+        }
+        Tema tema1 = new Tema(null, "Lab2", 10, 12);
+        try {
+            service.addTema(tema1);
+        } catch (ValidationException validationException) {
+            assertThat(validationException.getMessage(), is("Numar tema invalid!"));
+        }
+        cleanUp();
+    }
+
+    @Test
+    public void test_tc_4_invalid_description() {
+        temaValidator = new TemaValidator();
+        temaXMLRepo = new TemaXMLRepo(filenameTema);
+        service = new Service(null, null, temaXMLRepo, temaValidator, null, null);
+        Tema tema = new Tema("1", "", 10, 12);
+        try {
+            service.addTema(tema);
+        } catch (ValidationException validationException) {
+            assertThat(validationException.getMessage(), is("Descriere invalida!"));
+        }
+        cleanUp();
+    }
+
+    @Test
+    public void test_tc_5_invalid_primire() {
+        temaValidator = new TemaValidator();
+        temaXMLRepo = new TemaXMLRepo(filenameTema);
+        service = new Service(null, null, temaXMLRepo, temaValidator, null, null);
+        Tema tema = new Tema("1", "Lab2", 10, 122);
+        try {
+            service.addTema(tema);
+        } catch (ValidationException validationException) {
+            assertThat(validationException.getMessage(), is("Saptamana primirii trebuie sa fie intre 1-14."));
+        }
+        Tema tema1 = new Tema("2", "Lab2", 10, -12);
+        try {
+            service.addTema(tema1);
+        } catch (ValidationException validationException) {
+            assertThat(validationException.getMessage(), is("Saptamana primirii trebuie sa fie intre 1-14."));
+        }
+        cleanUp();
+    }
 }
