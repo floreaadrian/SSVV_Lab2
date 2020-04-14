@@ -32,17 +32,7 @@ public class AppTestBBT extends TestCase {
     }
 
     @Test
-    public void test_tc_1_valid_group() {
-        cleanUp();
-        studentValidator = new StudentValidator();
-        studentXMLRepository = new StudentXMLRepo(filenameStudent);
-        service = new Service(studentXMLRepository, studentValidator, null, null, null, null);
-        Student student = new Student("11111", "Gigel", 333, "gigel@gigi.com");
-        assertNull(service.addStudent(student));
-    }
-
-    @Test
-    public void test_tc_2_invalid_id() {
+    public void test_tc_1_invalid_id() {
         cleanUp();
         studentValidator = new StudentValidator();
         studentXMLRepository = new StudentXMLRepo(filenameStudent);
@@ -58,6 +48,20 @@ public class AppTestBBT extends TestCase {
             service.addStudent(student1);
         } catch (ValidationException validationException) {
             assertThat(validationException.getMessage(), is("Id incorect!"));
+        }
+    }
+
+    @Test
+    public void test_tc_2_invalid_group() {
+        cleanUp();
+        studentValidator = new StudentValidator();
+        studentXMLRepository = new StudentXMLRepo(filenameStudent);
+        service = new Service(studentXMLRepository, studentValidator, null, null, null, null);
+        Student student = new Student("11111", "Gigel", -333, "gigel@gigi.com");
+        try {
+            service.addStudent(student);
+        } catch (ValidationException validationException) {
+            assertThat(validationException.getMessage(), is("Grupa incorecta!"));
         }
     }
 

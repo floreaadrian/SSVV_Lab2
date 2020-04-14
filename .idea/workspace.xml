@@ -3,31 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eb0334db-189b-480b-8a6f-dcca986b248b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lab2Ok/app/MainApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lab2Ok/curent/Curent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lab2Ok/domain/Nota.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lab2Ok/domain/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lab2Ok/domain/Tema.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lab2Ok/repository/AbstractCrudRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lab2Ok/repository/AbstractFileRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lab2Ok/repository/AbstractXMLRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lab2Ok/repository/CrudRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lab2Ok/repository/FileRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lab2Ok/repository/HasID.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lab2Ok/repository/NotaFileRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lab2Ok/repository/NotaXMLRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lab2Ok/repository/StudentFileRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lab2Ok/repository/StudentXMLRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lab2Ok/repository/TemaFileRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lab2Ok/repository/TemaXMLRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lab2Ok/service/Service.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lab2Ok/validation/NotaValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lab2Ok/validation/StudentValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lab2Ok/validation/TemaValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lab2Ok/validation/ValidationException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lab2Ok/validation/Validator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lab2Ok/view/UI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lab2Ok/AppTestBBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lab2Ok/AppTestBBT.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +50,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager" selected="JUnit.AppTestWBT">
+  <component name="RunManager" selected="JUnit.AppTestBBT">
     <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab2Ok.app.MainApplication" />
       <module name="Lab2Ok" />
@@ -135,8 +111,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTestWBT" />
         <item itemvalue="JUnit.AppTestBBT" />
+        <item itemvalue="JUnit.AppTestWBT" />
         <item itemvalue="Application.MainApplication" />
         <item itemvalue="JUnit.AppTest" />
       </list>
@@ -159,7 +135,8 @@
       <workItem from="1586614946770" duration="1781000" />
       <workItem from="1586780768958" duration="1265000" />
       <workItem from="1586796588851" duration="1253000" />
-      <workItem from="1586856441963" duration="99000" />
+      <workItem from="1586856441963" duration="310000" />
+      <workItem from="1586895235925" duration="151000" />
     </task>
     <servers />
   </component>
@@ -171,25 +148,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900/-1920.-499.1920.1080@0.0.1440.900" timestamp="1586615749081" />
-    <state width="1398" height="279" key="GridCell.Tab.0.bottom" timestamp="1586856571249">
+    <state width="1398" height="279" key="GridCell.Tab.0.bottom" timestamp="1586856897225">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="279" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-499.1920.1080@0.0.1440.900" timestamp="1586856571249" />
+    <state width="1398" height="279" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-499.1920.1080@0.0.1440.900" timestamp="1586856897225" />
     <state width="1398" height="279" key="GridCell.Tab.0.bottom/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1586799340764" />
-    <state width="1398" height="279" key="GridCell.Tab.0.center" timestamp="1586856571245">
+    <state width="1398" height="279" key="GridCell.Tab.0.center" timestamp="1586856897223">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="279" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-499.1920.1080@0.0.1440.900" timestamp="1586856571245" />
+    <state width="1398" height="279" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-499.1920.1080@0.0.1440.900" timestamp="1586856897223" />
     <state width="1398" height="279" key="GridCell.Tab.0.center/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1586799340759" />
-    <state width="1398" height="279" key="GridCell.Tab.0.left" timestamp="1586856571242">
+    <state width="1398" height="279" key="GridCell.Tab.0.left" timestamp="1586856897221">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="279" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-499.1920.1080@0.0.1440.900" timestamp="1586856571242" />
+    <state width="1398" height="279" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-499.1920.1080@0.0.1440.900" timestamp="1586856897221" />
     <state width="1398" height="279" key="GridCell.Tab.0.left/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1586799340757" />
-    <state width="1398" height="279" key="GridCell.Tab.0.right" timestamp="1586856571246">
+    <state width="1398" height="279" key="GridCell.Tab.0.right" timestamp="1586856897224">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="279" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-499.1920.1080@0.0.1440.900" timestamp="1586856571246" />
+    <state width="1398" height="279" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-499.1920.1080@0.0.1440.900" timestamp="1586856897224" />
     <state width="1398" height="279" key="GridCell.Tab.0.right/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1586799340761" />
     <state width="1334" height="218" key="GridCell.Tab.1.bottom" timestamp="1585737119792">
       <screen x="0" y="23" width="1440" height="830" />
@@ -215,10 +192,10 @@
       <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state x="539" y="200" key="chooseDestDirectoryDialog/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1584528523529" />
-    <state x="431" y="247" key="com.intellij.ide.util.TipDialog" timestamp="1586856451639">
+    <state x="431" y="247" key="com.intellij.ide.util.TipDialog" timestamp="1586895237741">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="431" y="247" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-1920.-499.1920.1080@0.0.1440.900" timestamp="1586856451639" />
+    <state x="431" y="247" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-1920.-499.1920.1080@0.0.1440.900" timestamp="1586895237741" />
     <state x="431" y="247" key="com.intellij.ide.util.TipDialog/0.23.1440.830/-1920.-476.1920.1057@0.23.1440.830" timestamp="1586614945745" />
   </component>
 </project>
