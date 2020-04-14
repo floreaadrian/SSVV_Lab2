@@ -119,4 +119,13 @@ public class AppTestBBT extends TestCase {
         }
     }
 
+    @Test
+    public void test_tc_6_all_valid() {
+        cleanUp();
+        studentValidator = new StudentValidator();
+        studentXMLRepository = new StudentXMLRepo(filenameStudent);
+        service = new Service(studentXMLRepository, studentValidator, null, null, null, null);
+        Student student = new Student("1", "nu", 11, "nu@n.com");
+        assertNull(service.addStudent(student));
+    }
 }
