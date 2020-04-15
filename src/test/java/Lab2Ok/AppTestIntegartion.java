@@ -10,11 +10,15 @@ import Lab2Ok.service.Service;
 import Lab2Ok.validation.NotaValidator;
 import Lab2Ok.validation.StudentValidator;
 import Lab2Ok.validation.TemaValidator;
+import Lab2Ok.validation.ValidationException;
 import junit.framework.TestCase;
 import org.junit.Test;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
+
+import static org.hamcrest.CoreMatchers.is;
+import static org.junit.Assert.assertThat;
 
 public class AppTestIntegartion extends TestCase {
     private String filenameStudent = "fisiere/test/Studenti.xml";
@@ -53,22 +57,36 @@ public class AppTestIntegartion extends TestCase {
     @Test
     public void test_add_student() {
         cleanUpStudent();
-        Student student = new Student("12", "nu", 11, "nu@n.com");
-        assertNull(service.addStudent(student));
+        Student student = new Student(null, null, -11, null);
+        try {
+            service.addStudent(student);
+        } catch (Exception exception) {
+            assertThat(exception.getClass().toString(), is(ValidationException.class.toString()));
+        }
     }
 
     @Test
     public void test_add_tema() {
         cleanUpTema();
-        Tema tema = new Tema("1211", "Lab2", 5, 2);
-        assertNull(service.addTema(tema));
+        Tema tema = new Tema("1", "", 10, 12);
+        try {
+            service.addTema(tema);
+        } catch (ValidationException validationException) {
+            assertThat(validationException.getMessage(), is("Descriere invalida!"));
+        }
     }
 
     @Test
     public void test_add_grade() {
         service.deleteNota("1111");
-        Nota nota = new Nota("1111", "12", "1211", 9, LocalDate.of(2018,11,1));
+        Tema tema = new Tema("12111", "Lab2", 5, 2);
+        service.addTema(tema);
+        Student student = new Student("121", "nu", 11, "nu@n.com");
+        service.addStudent(student);
+        Nota nota = new Nota("1111", "121", "12111", 9, LocalDate.of(2018,11,1));
         assertNull(service.addNota(nota, "super gucci"));
+        cleanUpTema();
+        cleanUpStudent();
     }
 
     @Test
