@@ -5,6 +5,7 @@ import Lab2Ok.domain.Student;
 import Lab2Ok.domain.Tema;
 import Lab2Ok.service.Service;
 import Lab2Ok.validation.ValidationException;
+
 import java.time.LocalDate;
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -17,6 +18,7 @@ public class UI {
 
     /**
      * Class constructor
+     *
      * @param service - service-ul clasei
      */
     public UI(Service service) {
@@ -94,6 +96,7 @@ public class UI {
 
     /**
      * Adauga un student
+     *
      * @throws ValidationException daca datele studentul exista deja
      */
     private void adaugaStudent() throws ValidationException {
@@ -202,11 +205,9 @@ public class UI {
                 break;
             } else if (comanda == 1) {
                 adaugaTema();
-            }
-            else if(comanda==2) {
+            } else if (comanda == 2) {
                 prelungireDeadline();
-            }
-            else if (comanda == 3) {
+            } else if (comanda == 3) {
                 stergeTema();
             } else if (comanda == 4) {
                 cautareTema();
@@ -222,9 +223,10 @@ public class UI {
 
     /**
      * Adauga o tema
+     *
      * @throws ValidationException daca tema exista deja
      */
-    private void adaugaTema() throws ValidationException{
+    private void adaugaTema() throws ValidationException {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Introduceti nr tema: ");
         String nrTema = scanner.next();
@@ -251,7 +253,7 @@ public class UI {
     /**
      * Prelungeste deadline-ul unei teme
      */
-    private void prelungireDeadline(){
+    private void prelungireDeadline() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Introduceti id tema: ");
         String nrTema = scanner.next();
@@ -318,7 +320,7 @@ public class UI {
     /**
      * Afiseaza toate temele
      */
-    private void afisareTeme(){
+    private void afisareTeme() {
         Iterable<Tema> all = service.getAllTeme();
         //for(Tema tema: all){
         //    System.out.println(tema);
@@ -357,6 +359,7 @@ public class UI {
 
     /**
      * Adauga o nota
+     *
      * @throws ValidationException daca nota exista deja
      */
     private void adaugaNota() throws ValidationException {
@@ -379,7 +382,8 @@ public class UI {
         scanner.nextLine();
         String feedback = scanner.nextLine();        //System.out.println(feedback);
         Nota notaCatalog = new Nota(idNota, idStudent, nrTema, nota, dataPredare);
-        double notaFinala = service.addNota(notaCatalog, feedback);
+        Nota addedNote = service.addNota(notaCatalog, feedback);
+        double notaFinala = addedNote != null ? addedNote.getNota() : notaCatalog.getNota();
         System.out.println("Nota maxima pe care o poate primi studentul este: " + notaFinala);
     }
 
